@@ -7,7 +7,7 @@ This project is an **ETL pipeline** designed to extract weather data from the [O
 
 ![System Design Diagram](System_Design.png)
 
-c:\Users\ragha\Downloads\System_Design.png
+![alt text](System_Design.png)
 
 
 ## 📥 API Used
