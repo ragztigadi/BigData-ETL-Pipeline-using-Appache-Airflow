@@ -7,9 +7,6 @@ This project is an **ETL pipeline** designed to extract weather data from the [O
 
 ![System Design Diagram](System_Design.png)
 
-![alt text](System_Design.png)
-
-
 ## 📥 API Used
 We are fetching real-time weather data using the [Open-Meteo API](https://api.open-meteo.com/v1/forecast).
 
