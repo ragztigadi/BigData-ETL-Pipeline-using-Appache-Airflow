@@ -18,26 +18,7 @@ We are fetching real-time weather data using the [Open-Meteo API](https://api.op
 https://api.open-meteo.com/v1/forecast?latitude=51.5074&longitude=-0.1278&current_weather=true
 ```
 
-### Sample API Response
-```json
-{
-  "latitude": 51.5,
-  "longitude": -0.12,
-  "generationtime_ms": 0.20194053649902344,
-  "utc_offset_seconds": 0,
-  "timezone": "GMT",
-  "timezone_abbreviation": "GMT",
-  "elevation": 25.0,
-  "current_weather": {
-    "temperature": 19.3,
-    "windspeed": 11.2,
-    "winddirection": 250,
-    "weathercode": 3,
-    "is_day": 1,
-    "time": "2025-07-13T13:00"
-  }
-}
-```
+
 
 
 ## ⚙️ Components
@@ -65,9 +46,10 @@ https://api.open-meteo.com/v1/forecast?latitude=51.5074&longitude=-0.1278&curren
    ```bash
    docker compose up -d --build
    ```
-3. Access Airflow UI at [http://localhost:8085](http://localhost:8085).
+3. Access Airflow UI at [http://localhost:8085](http://localhost:).
 4. Unpause the `weather_etl_pipeline` DAG and trigger it.
 
 
 ## 📝 Author
 - Raghav Tigadi
+
