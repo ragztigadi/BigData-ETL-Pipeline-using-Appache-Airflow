@@ -1,11 +1,11 @@
-.git
-.env
-.DS_Store
-airflow_settings.yaml
+# Ignore Python virtual environments
+airflow_venv/
+.airflow_venv/
+
+# Ignore Airflow logs
+logs/
+
+# Ignore system files
+*.pyc
 __pycache__/
-astro
-.venv
-airflow-webserver.pid
-webserver_config.py
-airflow.cfg
-airflow.db
+.DS_Store
